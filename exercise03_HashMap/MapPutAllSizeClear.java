@@ -25,6 +25,7 @@ public class MapPutAllSizeClear {
 		 
 		 map2.clear();
 		 System.out.println(map2); // {}
+		 System.out.println(map2.isEmpty()); // true
 
 }
 }

@@ -2,6 +2,7 @@ package exercise03_HashMap;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class MapPutGetEntry {
 
@@ -37,7 +38,10 @@ public class MapPutGetEntry {
 		//6) getOrDefault(key,defaultDeger); istenen key degeri Map’de varsa o key’e ait value’yu, key map’te yoksa default degeri doner.
 		 
 		System.out.println(map.getOrDefault(6, null));	// null
-		 
+		
+		Set newKey=map.keySet(); // key'leri getiriyor
+		System.out.println(newKey); // [1, 2, 3, 4, 5]
+		
 	}
 
 }
